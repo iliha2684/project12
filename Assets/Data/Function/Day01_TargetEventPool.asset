@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: Day01_TargetEventPool
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: DAY01_TARGET_EVENT
+  displayName: "DAY 01 \uC81C\uAC70 \uB300\uC0C1 \uC0AC\uAC74"
+  category: 3
+  requiredFeatures: 2
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: EVENT_01
+    displayName: "\uC0AC\uAC741"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 14
+      valueSource: 0
+      sourceField: 14
+      valueType: 0
+      textValue: "\uC0AC\uAC741"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 15
+      valueType: 0
+      textValue: 2026-09-15
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: EVENT_02
+    displayName: "\uC0AC\uAC742"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 14
+      valueSource: 0
+      sourceField: 14
+      valueType: 0
+      textValue: "\uC0AC\uAC742"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 15
+      valueType: 0
+      textValue: 2026-09-15
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: EVENT_03
+    displayName: "\uC0AC\uAC743"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 14
+      valueSource: 0
+      sourceField: 14
+      valueType: 0
+      textValue: "\uC0AC\uAC743"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 15
+      valueType: 0
+      textValue: 2026-09-15
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: EVENT_04
+    displayName: "\uC0AC\uAC744"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 14
+      valueSource: 0
+      sourceField: 14
+      valueType: 0
+      textValue: "\uC0AC\uAC744"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 15
+      valueType: 0
+      textValue: 2026-09-15
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f7066a99da534986fb0ed90551433, type: 3}
+  m_Name: CitizenProfile_Sample
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Cases.CitizenProfileData
+  profileId: CIT-SAMPLE-001
+  displayName: "\uD14C\uC2A4\uD2B8 \uC2DC\uBBFC"
+  defaultPortrait: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+  portraitVariants: []
+  designerNotes: "CitizenCaseData \uC81C\uC791 \uD750\uB984\uACFC \uCEE4\uC2A4\uD140
+    \uC778\uC2A4\uD399\uD130 \uAC80\uC99D\uC6A9 \uC0D8\uD50C \uD504\uB85C\uD544\uC785\uB2C8\uB2E4."

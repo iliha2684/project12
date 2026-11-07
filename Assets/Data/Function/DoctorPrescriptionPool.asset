@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: DoctorPrescriptionPool
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: COMMON_PRESCRIPTION
+  displayName: "\uACF5\uD1B5 \uC758\uC0AC \uCC98\uBC29\uC804"
+  category: 5
+  requiredFeatures: 4
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: PRESCRIPTION_01
+    displayName: "\uCC98\uBC29\uC804 1"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 18
+      valueSource: 0
+      sourceField: 18
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 19
+      valueSource: 0
+      sourceField: 19
+      valueType: 0
+      textValue: "\uC758\uC0AC 1"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 20
+      valueSource: 0
+      sourceField: 20
+      valueType: 0
+      textValue: LICENSE_01
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 21
+      valueSource: 0
+      sourceField: 21
+      valueType: 0
+      textValue: 2048-08-11
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 22
+      valueSource: 0
+      sourceField: 22
+      valueType: 0
+      textValue: CODE_01
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 23
+      valueSource: 1
+      sourceField: 14
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 24
+      valueSource: 0
+      sourceField: 24
+      valueType: 0
+      textValue: "\uBCD1\uC6D0 1"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 25
+      valueSource: 0
+      sourceField: 25
+      valueType: 0
+      textValue: SEAL_01
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

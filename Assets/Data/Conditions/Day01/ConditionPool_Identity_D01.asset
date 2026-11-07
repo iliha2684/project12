@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: ConditionPool_Identity_D01
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: D01_IDENTITY
+  displayName: "DAY 1 \uC2DC\uBBFC \uC2E0\uC6D0"
+  category: 0
+  requiredFeatures: 1
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: D01_ID_01
+    displayName: "\uAE40\uBBFC\uC218"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - identity:registered
+    values:
+    - field: 1
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uAE40\uBBFC\uC218"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 2
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 5
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 6
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 7
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uAE40\uBBFC\uC218"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 8
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 910315123456
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 9
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 1991-03-15
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 10
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2032-12-31
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_ID_02
+    displayName: "\uC774\uC11C\uC5F0"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - identity:registered
+    values:
+    - field: 1
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC774\uC11C\uC5F0"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 2
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 5
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 6
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 7
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC774\uC11C\uC5F0"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 8
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 950728234567
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 9
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 1995-07-28
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 10
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2032-12-31
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_ID_03
+    displayName: "\uBC15\uB3C4\uC724"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - identity:registered
+    values:
+    - field: 1
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uBC15\uB3C4\uC724"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 2
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 5
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 6
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 7
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uBC15\uB3C4\uC724"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 8
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 880912345678
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 9
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 1988-09-12
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 10
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2032-12-31
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_ID_04
+    displayName: "\uCD5C\uD558\uB9B0"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - identity:registered
+    values:
+    - field: 1
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uCD5C\uD558\uB9B0"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 2
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 5
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 6
+      valueSource: 0
+      sourceField: 0
+      valueType: 3
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    - field: 7
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uCD5C\uD558\uB9B0"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 8
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 020421456789
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 9
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2002-04-21
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 10
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2032-12-31
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

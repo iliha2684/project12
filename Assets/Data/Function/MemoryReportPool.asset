@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: MemoryReportPool
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: COMMON_MEMORY_REPORT
+  displayName: "\uACF5\uD1B5 \uAE30\uC5B5 \uC9C4\uB2E8\uC11C"
+  category: 6
+  requiredFeatures: 8
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: MEMORY_REPORT_01
+    displayName: "\uAE30\uC5B5 \uC9C4\uB2E8\uC11C 1"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 26
+      valueSource: 0
+      sourceField: 26
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 27
+      valueSource: 0
+      sourceField: 27
+      valueType: 1
+      textValue: 
+      integerValue: 3
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 28
+      valueSource: 0
+      sourceField: 28
+      valueType: 1
+      textValue: 
+      integerValue: 1
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 29
+      valueSource: 0
+      sourceField: 29
+      valueType: 1
+      textValue: 
+      integerValue: 1
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 30
+      valueSource: 0
+      sourceField: 30
+      valueType: 1
+      textValue: 
+      integerValue: 1
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 31
+      valueSource: 0
+      sourceField: 31
+      valueType: 0
+      textValue: EQUIP_01
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 32
+      valueSource: 0
+      sourceField: 32
+      valueType: 0
+      textValue: TRACE_01
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

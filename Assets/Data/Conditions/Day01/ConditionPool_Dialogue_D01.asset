@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: ConditionPool_Dialogue_D01
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: D01_DIALOGUE
+  displayName: "DAY 1 \uBC29\uBB38 \uB300\uD654"
+  category: 9
+  requiredFeatures: 0
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: D01_DIALOGUE_WORKPLACE
+    displayName: "workplace \uB300\uD654"
+    selectionWeight: 1
+    requiredTags:
+    - event:workplace
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 37
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC9C1\uC7A5\uC5D0\uC11C \uC788\uC5C8\uB358 \uC77C\uC744 \uC9C0\uC6B0\uACE0
+        \uC2F6\uC5B4\uC11C \uC654\uC2B5\uB2C8\uB2E4."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 40
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC2E0\uCCAD\uC11C\uC5D0 \uC801\uD78C \uAE30\uC5B5\uB9CC \uC81C\uAC70\uD558\uB824\uB294
+        \uAC83\uC774 \uB9DE\uC2B5\uB2C8\uAE4C?"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 41
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uB124. \uADF8\uB0A0\uC758 \uC218\uCE58\uC2EC\uB9CC \uC5C6\uC5B4\uC9C0\uBA74
+        \uB2E4\uC2DC \uCD9C\uADFC\uD560 \uC218 \uC788\uC744 \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_DIALOGUE_FAMILY
+    displayName: "family \uB300\uD654"
+    selectionWeight: 1
+    requiredTags:
+    - event:family
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 37
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uAC00\uC871\uACFC \uB2E4\uD230 \uAE30\uC5B5 \uB54C\uBB38\uC5D0
+        \uC7A0\uC744 \uC798 \uC218\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 40
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC2E0\uCCAD\uC11C\uC5D0 \uC801\uD78C \uAE30\uC5B5\uB9CC \uC81C\uAC70\uD558\uB824\uB294
+        \uAC83\uC774 \uB9DE\uC2B5\uB2C8\uAE4C?"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 41
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uB124. \uB2E4\uB978 \uAC00\uC871\uC5D0 \uB300\uD55C \uAE30\uC5B5\uC740
+        \uADF8\uB300\uB85C \uB0A8\uACA8 \uC8FC\uC138\uC694."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_DIALOGUE_ACCIDENT
+    displayName: "accident \uB300\uD654"
+    selectionWeight: 1
+    requiredTags:
+    - event:accident
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 37
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC0AC\uACE0 \uC21C\uAC04\uC774 \uACC4\uC18D \uB5A0\uC62C\uB77C\uC11C
+        \uC2E0\uCCAD\uD588\uC2B5\uB2C8\uB2E4."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 40
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC2E0\uCCAD\uC11C\uC5D0 \uC801\uD78C \uAE30\uC5B5\uB9CC \uC81C\uAC70\uD558\uB824\uB294
+        \uAC83\uC774 \uB9DE\uC2B5\uB2C8\uAE4C?"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 41
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC0AC\uACE0 \uC7A5\uBA74\uACFC \uC9C1\uD6C4\uC758 \uACF5\uD3EC\uB9CC
+        \uC81C\uAC70\uD558\uACE0 \uC2F6\uC2B5\uB2C8\uB2E4."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_DIALOGUE_LOSS
+    displayName: "loss \uB300\uD654"
+    selectionWeight: 1
+    requiredTags:
+    - event:loss
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 37
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC774\uBCC4\uD55C \uC21C\uAC04\uB9CC\uC774\uB77C\uB3C4 \uC78A\uACE0
+        \uC2F6\uC2B5\uB2C8\uB2E4."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 40
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC2E0\uCCAD\uC11C\uC5D0 \uC801\uD78C \uAE30\uC5B5\uB9CC \uC81C\uAC70\uD558\uB824\uB294
+        \uAC83\uC774 \uB9DE\uC2B5\uB2C8\uAE4C?"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 41
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uD568\uAED8 \uC9C0\uB0B8 \uAE30\uC5B5\uC740 \uB0A8\uAE30\uACE0
+        \uB9C8\uC9C0\uB9C9 \uC21C\uAC04\uB9CC \uC9C0\uC6CC \uC8FC\uC138\uC694."
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

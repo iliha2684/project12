@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a39839eaff4fb98dc44419178041d8, type: 3}
+  m_Name: Regulation_RelatedPersonConsent_D05_14
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.DayRegulationData
+  regulationId: RULE_RELATED_PERSON_CONSENT
+  displayName: "\uAD00\uACC4\uC778 \uC804\uC6D0 \uB3D9\uC758"
+  description: "\uD0C0\uC778 \uC5F0\uACB0\uC790\uAC00 2\uBA85 \uC774\uC0C1\uC774\uBA74 \uC804\uC6D0\uC758 \uB3D9\uC758\uC11C\uAC00 \uD544\uC694\uD558\uB2E4. 5~14\uC77C\uCC28\uC5D0 \uC801\uC6A9\uD558\uACE0 15\uC77C\uCC28\uBD80\uD130 \uC81C\uAC70\uD55C\uB2E4."
+  kind: 1
+  requiredFeatures: 24
+  violationDisposition: 1
+  minimumLinkedPersonCount: 2
+  requireAllRelatedPersonSignatures: 1

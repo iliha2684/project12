@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439f7066a99da534986fb0ed90551433, type: 3}
+  m_Name: MerchantProfile
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Cases.CitizenProfileData
+  profileId: MERCHANT_01
+  displayName: "\uC0C1\uC778"
+  defaultPortrait: {fileID: 0}
+  portraitVariants: []
+  designerNotes: 

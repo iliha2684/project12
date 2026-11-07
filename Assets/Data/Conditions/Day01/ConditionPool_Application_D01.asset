@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: ConditionPool_Application_D01
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: D01_APPLICATION
+  displayName: "DAY 1 \uAE30\uC5B5 \uC81C\uAC70 \uC2E0\uCCAD"
+  category: 3
+  requiredFeatures: 2
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: D01_APP_WORKPLACE
+    displayName: "\uC9C1\uC7A5 \uB0B4 \uACF5\uAC1C\uC801\uC778 \uC9C8\uCC45"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - event:workplace
+    values:
+    - field: 11
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 12
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 13
+      valueSource: 1
+      sourceField: 8
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 14
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uC9C1\uC7A5 \uB0B4 \uACF5\uAC1C\uC801\uC778 \uC9C8\uCC45"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2041-03-12
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 16
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: SHAME-2
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 17
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_APP_FAMILY
+    displayName: "\uAC00\uC871\uACFC\uC758 \uC2EC\uD55C \uB9D0\uB2E4\uD23C"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - event:family
+    values:
+    - field: 11
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 12
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 13
+      valueSource: 1
+      sourceField: 8
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 14
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uAC00\uC871\uACFC\uC758 \uC2EC\uD55C \uB9D0\uB2E4\uD23C"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2041-04-02
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 16
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: ANGER-1
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 17
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_APP_ACCIDENT
+    displayName: "\uCD9C\uADFC\uAE38 \uAD50\uD1B5\uC0AC\uACE0"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - event:accident
+    values:
+    - field: 11
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 12
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 13
+      valueSource: 1
+      sourceField: 8
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 14
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uCD9C\uADFC\uAE38 \uAD50\uD1B5\uC0AC\uACE0"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2041-04-18
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 16
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: FEAR-2
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 17
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+  - optionId: D01_APP_LOSS
+    displayName: "\uBC18\uB824\uB3D9\uBB3C\uACFC\uC758 \uC774\uBCC4"
+    selectionWeight: 1
+    requiredTags: []
+    excludedTags: []
+    providedTags:
+    - event:loss
+    values:
+    - field: 11
+      valueSource: 0
+      sourceField: 0
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 12
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 13
+      valueSource: 1
+      sourceField: 8
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 14
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: "\uBC18\uB824\uB3D9\uBB3C\uACFC\uC758 \uC774\uBCC4"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 15
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: 2041-05-07
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 16
+      valueSource: 0
+      sourceField: 0
+      valueType: 0
+      textValue: GRIEF-2
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 17
+      valueSource: 1
+      sourceField: 7
+      valueType: 0
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

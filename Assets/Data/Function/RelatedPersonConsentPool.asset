@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fa7cf041b56c4393459d88afac617, type: 3}
+  m_Name: RelatedPersonConsentPool
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.CitizenConditionPoolData
+  poolId: COMMON_RELATED_CONSENT
+  displayName: "\uAD00\uACC4\uC778 \uB3D9\uC758\uC11C"
+  category: 7
+  requiredFeatures: 24
+  requiredForEveryCitizen: 1
+  options:
+  - optionId: CONSENT_VALID_01
+    displayName: 
+    selectionWeight: 0
+    requiredTags: []
+    excludedTags: []
+    providedTags: []
+    values:
+    - field: 33
+      valueSource: 0
+      sourceField: 33
+      valueType: 2
+      textValue: 
+      integerValue: 0
+      booleanValue: 1
+      spriteValue: {fileID: 0}
+    - field: 42
+      valueSource: 1
+      sourceField: 29
+      valueType: 1
+      textValue: 
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}
+    - field: 43
+      valueSource: 0
+      sourceField: 43
+      valueType: 0
+      textValue: "\uAD00\uACC4\uC778 \uC11C\uBA85 \uC644\uB8CC"
+      integerValue: 0
+      booleanValue: 0
+      spriteValue: {fileID: 0}

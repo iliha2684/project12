@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf19e9e5419cd29429e4789123e1dcf4, type: 3}
+  m_Name: ExpiredIdFake
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.FakeConditionData
+  conditionId: ID_EXPIRED
+  displayName: "\uC2DC\uBBFC\uC99D \uC720\uD6A8\uAE30\uAC04 \uB9CC\uB8CC"
+  selectionWeight: 1
+  requiredFeatures: 2
+  requiredTags: []
+  excludedTags: []
+  targetField: 10
+  mutationMode: 1
+  replacementPool: {fileID: 0}
+  fixedValue:
+    field: 10
+    valueSource: 0
+    sourceField: 10
+    valueType: 0
+    textValue: 2040-01-01
+    integerValue: 0
+    booleanValue: 0
+    spriteValue: {fileID: 0}
+  expectedDisposition: 1
+  violatedRuleId: 
+  designerNotes: 

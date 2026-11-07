@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7875c916e8e3e49a61e24f73385944, type: 3}
+  m_Name: WhiteAgentCase
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Cases.CitizenCaseData
+  caseId: DAY07_WHITE_AGENT
+  citizen: {fileID: 11400000, guid: 13d991b0768f20c4fabdbf82274f0637, type: 2}
+  category: 0
+  isFakeCitizen: 0
+  appearanceConditions:
+    earliestDay: 1
+    latestDay: 18
+    selectionWeight: 1
+    allowRepeatInCampaign: 0
+    prerequisiteCase: {fileID: 0}
+    requirePreviousDisposition: 0
+    requiredPreviousDisposition: 0
+  portraitOverride: {fileID: 0}
+  openingDialogue: 
+  questionDialogue: 
+  dialogue: []
+  citizenIdCard:
+    submitted: 1
+    facePhoto: {fileID: 0}
+    fullName: "\uBC31\uC0C9\uC11C\uACE0 \uC694\uC6D0"
+    citizenNumber: "\uBBF8\uC815"
+    birthDate: "\uBBF8\uC815"
+    expirationDate: "\uBBF8\uC815"
+  removalApplication:
+    submitted: 1
+    applicantName: "\uBC31\uC0C9\uC11C\uACE0 \uC694\uC6D0"
+    citizenNumber: "\uBBF8\uC815"
+    targetEvent: "\uBBF8\uC815"
+    eventDate: "\uBBF8\uC815"
+    emotionCode: "\uBBF8\uC815"
+    signature: "\uBBF8\uC815"
+  prescription:
+    submitted: 1
+    doctorName: 
+    licenseNumber: 
+    prescriptionDate: 
+    diagnosisCode: 
+    removalScope: 
+    hospitalName: 
+    hospitalSeal: 
+  memoryReport:
+    submitted: 1
+    nodeCount: 0
+    selfConnection: 0
+    linkedPersonCount: 0
+    internalMemoryResponse: 0
+    equipmentNumber: 
+    traceCode: 
+  consentForm:
+    submitted: 1
+    people: []
+  judgment:
+    expectedDisposition: 0
+    violatedRuleIds: []
+    judgmentReason: 

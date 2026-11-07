@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7875c916e8e3e49a61e24f73385944, type: 3}
+  m_Name: Day16PleadingCase
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Cases.CitizenCaseData
+  caseId: DAY16_PLEADING
+  citizen: {fileID: 0}
+  category: 0
+  isFakeCitizen: 0
+  appearanceConditions:
+    earliestDay: 1
+    latestDay: 18
+    selectionWeight: 1
+    allowRepeatInCampaign: 0
+    prerequisiteCase: {fileID: 0}
+    requirePreviousDisposition: 0
+    requiredPreviousDisposition: 0
+  portraitOverride: {fileID: 0}
+  openingDialogue: 
+  questionDialogue: 
+  dialogue: []
+  citizenIdCard:
+    submitted: 1
+    facePhoto: {fileID: 0}
+    fullName: 
+    citizenNumber: 
+    birthDate: 
+    expirationDate: 
+  removalApplication:
+    submitted: 1
+    applicantName: 
+    citizenNumber: 
+    targetEvent: 
+    eventDate: 
+    emotionCode: 
+    signature: 
+  prescription:
+    submitted: 1
+    doctorName: 
+    licenseNumber: 
+    prescriptionDate: 
+    diagnosisCode: 
+    removalScope: 
+    hospitalName: 
+    hospitalSeal: 
+  memoryReport:
+    submitted: 1
+    nodeCount: 0
+    selfConnection: 0
+    linkedPersonCount: 0
+    internalMemoryResponse: 0
+    equipmentNumber: 
+    traceCode: 
+  consentForm:
+    submitted: 1
+    people: []
+  judgment:
+    expectedDisposition: 0
+    violatedRuleIds: []
+    judgmentReason: 

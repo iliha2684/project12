@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895eca4eaf16db049b726c0d4c1031ac, type: 3}
+  m_Name: Day_15
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Days.DayDefinition
+  dayId: DAY_15
+  dayNumber: 15
+  displayTitle: DAY 15
+  totalCitizenCount: 8
+  fakeCitizenCount: 4
+  storyCases: []
+  unlockedFeatures: 191
+  activeConditionPools:
+  - {fileID: 11400000, guid: 47b8e2dae1fc7d441bc0a14904059a61, type: 2}
+  - {fileID: 11400000, guid: 36d44e267aa345648bebc82b9f1223a9, type: 2}
+  - {fileID: 11400000, guid: e5dcc0c98ebae924c8b0c28f2bb356ec, type: 2}
+  - {fileID: 11400000, guid: 725008e41d1a41446a20fb3c4fb7730d, type: 2}
+  - {fileID: 11400000, guid: b375b5f943feeb043acab28b1aa069ca, type: 2}
+  availableFakeConditions:
+  - {fileID: 11400000, guid: a698a3939001f914b86e08d589013cfa, type: 2}
+  - {fileID: 11400000, guid: 15c3bfca3202844498c76a4334c1aae4, type: 2}
+  - {fileID: 11400000, guid: 963edae0fa965014abd2127270cf1b43, type: 2}
+  - {fileID: 11400000, guid: aa38d06c24206b340b76815623a354b1, type: 2}
+  - {fileID: 11400000, guid: 4c17386a02e94fe4391c5f49a9227704, type: 2}
+  activeRegulations: []
+  designerNotes: 

@@ -1,0 +1,98 @@
+.citizen-case-inspector {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 10px;
+}
+
+.case-header {
+    flex-direction: row;
+    min-height: 112px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgb(35, 42, 51);
+    border-radius: 5px;
+}
+
+.portrait-preview {
+    width: 96px;
+    height: 96px;
+    margin-right: 10px;
+    background-color: rgb(23, 27, 33);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(81, 91, 102);
+    border-right-color: rgb(81, 91, 102);
+    border-top-color: rgb(81, 91, 102);
+    border-bottom-color: rgb(81, 91, 102);
+}
+
+.case-summary {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.case-title {
+    color: rgb(239, 242, 245);
+    font-size: 17px;
+    -unity-font-style: bold;
+    margin-bottom: 3px;
+}
+
+.case-meta {
+    color: rgb(171, 184, 197);
+    margin-bottom: 8px;
+}
+
+.disposition-badge {
+    align-self: flex-start;
+    color: white;
+    -unity-font-style: bold;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 9px;
+}
+
+.disposition-approve {
+    background-color: rgb(45, 126, 121);
+}
+
+.disposition-reject {
+    background-color: rgb(103, 117, 132);
+}
+
+.disposition-detain {
+    background-color: rgb(179, 48, 48);
+}
+
+.disposition-treatment {
+    background-color: rgb(199, 152, 61);
+}
+
+.case-section {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.judgment-section {
+    margin-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(123, 38, 38, 0.16);
+    border-left-width: 3px;
+    border-left-color: rgb(184, 52, 52);
+}
+
+.validation-container {
+    margin-top: 10px;
+}
+
+.validation-title {
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}

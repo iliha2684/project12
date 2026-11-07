@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7875c916e8e3e49a61e24f73385944, type: 3}
+  m_Name: CitizenCase_D01_Sample
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectED.Cases.CitizenCaseData
+  caseId: CASE-D01-SAMPLE-001
+  citizen: {fileID: 11400000, guid: 0f1914e68bccdb34f8d63318356edf58, type: 2}
+  category: 0
+  appearanceConditions:
+    earliestDay: 1
+    latestDay: 1
+    selectionWeight: 1
+    allowRepeatInCampaign: 0
+    prerequisiteCase: {fileID: 0}
+    requirePreviousDisposition: 0
+    requiredPreviousDisposition: 0
+  portraitOverride: {fileID: 0}
+  openingDialogue: "\uAE30\uC5B5 \uC81C\uAC70 \uC2E0\uCCAD\uC744 \uD558\uB7EC \uC654\uC2B5\uB2C8\uB2E4."
+  questionDialogue: "\uC11C\uB958\uC5D0\uB294 \uBB38\uC81C\uAC00 \uC5C6\uB2E4\uACE0
+    \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4."
+  dialogue:
+  - speaker: 0
+    text: "\uAE30\uC5B5 \uC81C\uAC70 \uC2E0\uCCAD\uC744 \uD558\uB7EC \uC654\uC2B5\uB2C8\uB2E4."
+  - speaker: 1
+    text: "\uC2DC\uBBFC\uC99D\uACFC \uC2E0\uCCAD\uC11C\uB97C \uC81C\uCD9C\uD574 \uC8FC\uC2ED\uC2DC\uC624."
+  - speaker: 0
+    text: "\uC5EC\uAE30 \uC788\uC2B5\uB2C8\uB2E4. \uC11C\uB958\uC5D0\uB294 \uBB38\uC81C\uAC00
+      \uC5C6\uB2E4\uACE0 \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4."
+  - speaker: 1
+    text: "\uD655\uC778\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+  citizenIdCard:
+    submitted: 1
+    facePhoto: {fileID: 1423335416839306057, guid: 0007a22e09bd6134ba888ea31b5eca48, type: 3}
+    fullName: "\uD14C\uC2A4\uD2B8 \uC2DC\uBBFC"
+    citizenNumber: 000000000001
+    birthDate: 2020-01-01
+    expirationDate: 2055-12-31
+  removalApplication:
+    submitted: 1
+    applicantName: "\uD14C\uC2A4\uD2B8 \uC2DC\uBBFC"
+    citizenNumber: 000000000001
+    targetEvent: "2041\uB144 \uC9C0\uD558\uCCA0 \uC0AC\uACE0"
+    eventDate: 2041-11-03
+    emotionCode: E-01
+    signature: "\uD14C\uC2A4\uD2B8 \uC2DC\uBBFC"
+  prescription:
+    submitted: 1
+    doctorName: "\uBC15\uC758\uC0AC"
+    licenseNumber: D-0001
+    prescriptionDate: 2052-01-01
+    diagnosisCode: M-01
+    removalScope: "\uC0AC\uACE0 \uB2F9\uC2DC\uC758 \uACF5\uD3EC \uAE30\uC5B5"
+    hospitalName: "\uC911\uC559\uAE30\uC5B5\uBCD1\uC6D0"
+    hospitalSeal: "\uC911\uC559\uAE30\uC5B5\uBCD1\uC6D0 \uC9C1\uC778"
+  memoryReport:
+    submitted: 1
+    nodeCount: 12
+    selfConnection: 35
+    linkedPersonCount: 0
+    internalMemoryResponse: 0
+    equipmentNumber: EQ-0001
+    traceCode: 
+  consentForm:
+    submitted: 0
+    people: []
+  judgment:
+    expectedDisposition: 0
+    violatedRuleIds: []
+    judgmentReason: "1\uC77C \uCC28 \uADDC\uC815\uC0C1 \uC2DC\uBBFC\uC99D\uACFC \uC2E0\uCCAD\uC11C\uC758
+      \uC774\uB984 \uBC0F \uC2DC\uBBFC\uBC88\uD638\uAC00 \uC77C\uCE58\uD569\uB2C8\uB2E4."
